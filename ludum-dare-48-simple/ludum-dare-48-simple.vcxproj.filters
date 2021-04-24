@@ -19,4 +19,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="print_phrases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen_phrases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen_thesaurus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
