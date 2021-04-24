@@ -2,15 +2,12 @@
 
 #include <iostream>
 #include "language.h"
+#include "map.h"
+#include "player.h"
 
 int main()
 {
-    array<array<string, 10>, 10> map;
-    for (int i = 0; i < 10; i++) {
-        map = gen_map();
-        print_map(map);
-        cout << "\n";
-    }
-
+    map<string, string> player = gen_player();
+    print_player(player);
     return 0;
 }
