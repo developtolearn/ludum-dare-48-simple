@@ -5,13 +5,12 @@
 
 int main()
 {
-    unordered_map<string, unordered_set<string>> phrases;
-    phrases = gen_phrases();
-    print_phrases(phrases);
-    
     array<array<string, 10>, 10> map;
-    map = gen_map();
-    print_map(map);
+    for (int i = 0; i < 10; i++) {
+        map = gen_map();
+        print_map(map);
+        cout << "\n";
+    }
 
     return 0;
 }
