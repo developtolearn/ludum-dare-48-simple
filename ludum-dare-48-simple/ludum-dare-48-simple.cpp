@@ -5,10 +5,8 @@
 
 int main()
 {
-    unordered_map<string, unordered_set<string>> thesaurus;
     unordered_map<string, unordered_set<string>> phrases;
-    thesaurus = gen_thesaurus();
-    phrases = gen_phrases(thesaurus);
+    phrases = gen_phrases();
     print_phrases(phrases);
     return 0;
 }

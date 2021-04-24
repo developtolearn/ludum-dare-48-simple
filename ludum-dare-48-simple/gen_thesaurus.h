@@ -2,19 +2,22 @@
 #include <string>
 #include <unordered_map>
 #include <unordered_set>
+using namespace std;
 
 
 unordered_map<string, unordered_set<string>> gen_thesaurus()
 {
-	unordered_set<string> syn_access;
-	syn_access = {
-		"access", "open", "show", "print"
-	};
-
+	// manually define synnonymns of main words
 	unordered_map<string, unordered_set<string>> thesaurus;
-	for (auto const& word : syn_access) {
-		thesaurus["access"].insert(word);
-	}
+	thesaurus["access"] = {
+		"access", "open", "show", "print", "display"
+	};
+	thesaurus["move"] = {
+	"move", "go", "walk", "run"
+	};
+	thesaurus["observe"] = {
+		"observe", "look", "view"
+	};
 
 	return thesaurus;
 }
