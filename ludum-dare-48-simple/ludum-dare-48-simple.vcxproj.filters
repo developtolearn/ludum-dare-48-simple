@@ -32,5 +32,11 @@
     <ClInclude Include="gen_thesaurus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gen_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="print_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

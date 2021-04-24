@@ -144,6 +144,8 @@
   <ItemGroup>
     <ClInclude Include="gen_phrases.h" />
     <ClInclude Include="gen_thesaurus.h" />
+    <ClInclude Include="gen_map.h" />
+    <ClInclude Include="print_map.h" />
     <ClInclude Include="print_phrases.h" />
     <ClInclude Include="language.h" />
   </ItemGroup>

@@ -16,7 +16,7 @@ unordered_map<string, unordered_set<string>> gen_phrases()
     unordered_map<string, unordered_set<string>> phrases;
     for (auto const& word : thesaurus["access"]) {
         phrases[word] = {
-            "map", "backpack"
+            "map", "backpack", "phrases"
         };
     }
     for (auto const& word : thesaurus["move"]) {
