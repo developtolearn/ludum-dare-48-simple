@@ -7,9 +7,8 @@ map<string, string> gen_player() {
 	// player name
 	cout << "Please enter your character's name\n>>> ";
 	string name;
-	cin >> name;
+	getline(cin, name);
 	player["name"] = name;
-	cout << "Hello, " << name << "\n";
 
 	return player;
 }

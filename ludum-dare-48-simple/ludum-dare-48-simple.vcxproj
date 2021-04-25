@@ -148,7 +148,10 @@
     <ClInclude Include="gen_player.h" />
     <ClInclude Include="gen_thesaurus.h" />
     <ClInclude Include="gen_map.h" />
+    <ClInclude Include="get_command.h" />
+    <ClInclude Include="instructions.h" />
     <ClInclude Include="map.h" />
+    <ClInclude Include="parse_command.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="print_map.h" />
     <ClInclude Include="print_phrases.h" />

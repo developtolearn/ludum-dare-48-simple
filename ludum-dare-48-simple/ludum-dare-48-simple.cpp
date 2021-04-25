@@ -5,10 +5,17 @@
 
 int main()
 {
+    // intro
     startup();
     map<string, string> player = gen_player();
-    array<array<string, 10>, 10> map = gen_map();
-    print_player(player);
-    print_map(map);
+    instructions(player);
+    
+    // main loop
+    string command = "";
+    do {
+        command = get_command();
+        parse_command(command);
+    } while (command != "EXIT");
+
     return 0;
 }
