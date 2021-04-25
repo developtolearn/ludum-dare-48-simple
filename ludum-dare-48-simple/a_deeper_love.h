@@ -10,6 +10,9 @@
 #include <random>
 using namespace std;
 
+// hacked up here due to dependencies
+#include "encounter.h"
+
 // language headers
 #include "gen_phrases.h"
 #include "print_phrases.h"
@@ -32,5 +35,4 @@ using namespace std;
 #include "get_command.h"
 #include "parse_command.h"
 
-// global variables
-//extern int g_floor;
+

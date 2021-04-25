@@ -28,6 +28,9 @@ array<array<string, 10>, 10> move_player(array<array<string, 10>, 10> map, strin
 		else if (map[player_i - 1][player_j] == "E") {
 			map = gen_map();
 		}
+		else if (map[player_i - 1][player_j] == "M") {
+			map = encounter(map, player_i - 1, player_j);
+		}
 		else {
 			cout << "You moved NORTH.\n";
 			map[player_i][player_j] = " ";
@@ -43,6 +46,9 @@ array<array<string, 10>, 10> move_player(array<array<string, 10>, 10> map, strin
 		}
 		else if (map[player_i + 1][player_j] == "E") {
 			map = gen_map();
+		}
+		else if (map[player_i + 1][player_j] == "M") {
+			map = encounter(map, player_i + 1, player_j);
 		}
 		else {
 			cout << "You moved SOUTH.\n";
@@ -60,6 +66,9 @@ array<array<string, 10>, 10> move_player(array<array<string, 10>, 10> map, strin
 		else if (map[player_i][player_j+1] == "E") {
 			map = gen_map();
 		}
+		else if (map[player_i][player_j + 1] == "M") {
+			map = encounter(map, player_i, player_j + 1);
+		}
 		else {
 			cout << "You moved EAST.\n";
 			map[player_i][player_j] = " ";
@@ -75,6 +84,9 @@ array<array<string, 10>, 10> move_player(array<array<string, 10>, 10> map, strin
 		}
 		else if (map[player_i][player_j-1] == "E") {
 			map = gen_map();
+		}
+		else if (map[player_i][player_j - 1] == "M") {
+			map = encounter(map, player_i, player_j - 1);
 		}
 		else {
 			cout << "You moved WEST.\n";

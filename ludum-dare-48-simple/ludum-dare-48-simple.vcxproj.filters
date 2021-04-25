@@ -80,5 +80,8 @@
     <ClInclude Include="print_verbs.h">
       <Filter>Header Files\language</Filter>
     </ClInclude>
+    <ClInclude Include="encounter.h">
+      <Filter>Header Files\gameplay</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

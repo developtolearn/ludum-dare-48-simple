@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a_deeper_love.h" />
+    <ClInclude Include="encounter.h" />
     <ClInclude Include="gen_phrases.h" />
     <ClInclude Include="gen_player.h" />
     <ClInclude Include="gen_thesaurus.h" />
