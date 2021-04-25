@@ -1,4 +1,5 @@
 #pragma once
+#include "place_object.h"
 
 
 array<array<string,10>,10> gen_map() {
@@ -63,8 +64,8 @@ array<array<string,10>,10> gen_map() {
 		{"#"," ","#","#","#","#","#","#","#","#"},
 		{"#"," "," "," "," "," "," ","#","#","#"},
 		{"#","#","#","#","#","#"," ","#","#","#"},
-		{"#","#","#","#","#","#"," "," ","#","#"},
-		{"#","#","#","#","#","#"," "," ","#","#"},
+		{"#","#","#","#","#","#"," "," "," ","#"},
+		{"#","#","#","#","#","#"," "," "," ","#"},
 		{"#","#","#","#","#","#","#","#","#","#"},
 	} };
 	// generate map5
@@ -146,6 +147,12 @@ array<array<string,10>,10> gen_map() {
 		cout << "!! Transforms Broken !!";
 		break;
 	}
+
+	//place objects
+	map = place_object(map, "P");  // place player
+	map = place_object(map, "M");  // place monster
+	map = place_object(map, "E");  // place exit
+	map = place_object(map, "I");  // place item
 
 	return map;
 }

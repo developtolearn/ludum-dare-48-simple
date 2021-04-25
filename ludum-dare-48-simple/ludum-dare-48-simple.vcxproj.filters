@@ -80,5 +80,8 @@
     <ClInclude Include="parse_command.h">
       <Filter>Header Files\gameplay</Filter>
     </ClInclude>
+    <ClInclude Include="place_object.h">
+      <Filter>Header Files\map</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -17,12 +17,12 @@ int instructions(map<string, string> player) {
 		<< "|| parser that has ever been writen since the days of QBASIC. Anyways that just means your     ||\n"
 		<< "|| options are going to be limited. I'll stop rambing now and explain the game!                ||\n"
 		<< "||                                                                                             ||\n"
-		<< "|| Helpful Commands (don't worry, these aren't case sensitive):                                ||\n" 
-		<< "||     HELP: Brings up these instructions again                                                ||\n" 
-		<< "||     EXIT: Exits the game quite abruptly                                                     ||\n" 
-		<< "|| Gameplay commands are in the form of <VERB> <NOWN> pairs, (e.g., LOOK LEFT)                 ||\n" 
-		<< "|| Here are a few useful, non-obvious, or meta pairs:                                          ||\n"
-		<< "||     LIST VERBS: lists all the available verbs and their recognized synonymns                ||\n"
+		<< "|| Helpful Commands (don't worry, these aren't case sensitive):                 Map key:       ||\n" 
+		<< "||     HELP: Brings up these instructions again                                     P: Player  ||\n" 
+		<< "||     EXIT: Exits the game quite abruptly                                          M: Monster ||\n" 
+		<< "|| Gameplay commands are in the form of <VERB> <NOWN> pairs, (e.g., LOOK LEFT)      E: Exit    ||\n" 
+		<< "|| Here are a few useful, non-obvious, or meta pairs:                               I: Item    ||\n"
+		<< "||     LIST VERBS: lists all the available verbs and their recognized synonymns     #: Wall    ||\n"
 		<< "||     HOW <VERB>: lists all the nouns for an available verb                                   ||\n"
 		<< "||" << string(93, '=') << "||\n\n";
 	return 0;
