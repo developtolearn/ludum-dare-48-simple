@@ -3,6 +3,20 @@
 
 
 array<array<string,10>,10> gen_map() {
+	// important lore
+	g_floor++;
+	if (g_floor == 1) {
+		cout
+			<< "You find yourself in a new, unfamiliar, cave system...\n"
+			<< "There is, conviniently, a map lying at your feet, which you pick up.\n"
+			<< "Perhaps you should check your map to get your bearings.\n";
+	}
+	else {
+		cout
+			<< "You climb down the ladder and find yourself deeper in the cave system...\n"
+			<< "There is, conviniently, a map lying at your feet, which you pick up.\n"
+			<< "You wonder how deep this cave system could possibly go...\n";
+	}
 	// generate blank map
 	array<array<string, 10>, 10> map0{ {
 		{"#","#","#","#","#","#","#","#","#","#"},
@@ -152,7 +166,7 @@ array<array<string,10>,10> gen_map() {
 	map = place_object(map, "P");  // place player
 	map = place_object(map, "M");  // place monster
 	map = place_object(map, "E");  // place exit
-	map = place_object(map, "I");  // place item
+	//map = place_object(map, "I");  // place item
 
 	return map;
 }

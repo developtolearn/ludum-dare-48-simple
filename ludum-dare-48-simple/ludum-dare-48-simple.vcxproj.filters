@@ -32,9 +32,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="language.h">
-      <Filter>Header Files\language</Filter>
-    </ClInclude>
     <ClInclude Include="gen_thesaurus.h">
       <Filter>Header Files\language</Filter>
     </ClInclude>
@@ -47,23 +44,14 @@
     <ClInclude Include="gen_player.h">
       <Filter>Header Files\player</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Header Files\player</Filter>
-    </ClInclude>
     <ClInclude Include="print_player.h">
       <Filter>Header Files\player</Filter>
     </ClInclude>
     <ClInclude Include="print_map.h">
       <Filter>Header Files\map</Filter>
     </ClInclude>
-    <ClInclude Include="map.h">
-      <Filter>Header Files\map</Filter>
-    </ClInclude>
     <ClInclude Include="gen_map.h">
       <Filter>Header Files\map</Filter>
-    </ClInclude>
-    <ClInclude Include="gameplay.h">
-      <Filter>Header Files\gameplay</Filter>
     </ClInclude>
     <ClInclude Include="lore.h">
       <Filter>Header Files\gameplay</Filter>
@@ -85,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="help.h">
       <Filter>Header Files\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="move_player.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="print_verbs.h">
+      <Filter>Header Files\language</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

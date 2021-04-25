@@ -143,7 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a_deeper_love.h" />
-    <ClInclude Include="gameplay.h" />
     <ClInclude Include="gen_phrases.h" />
     <ClInclude Include="gen_player.h" />
     <ClInclude Include="gen_thesaurus.h" />
@@ -151,15 +150,14 @@
     <ClInclude Include="get_command.h" />
     <ClInclude Include="help.h" />
     <ClInclude Include="instructions.h" />
-    <ClInclude Include="map.h" />
+    <ClInclude Include="move_player.h" />
     <ClInclude Include="parse_command.h" />
     <ClInclude Include="place_object.h" />
-    <ClInclude Include="player.h" />
     <ClInclude Include="print_map.h" />
     <ClInclude Include="print_phrases.h" />
-    <ClInclude Include="language.h" />
     <ClInclude Include="print_player.h" />
     <ClInclude Include="lore.h" />
+    <ClInclude Include="print_verbs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
