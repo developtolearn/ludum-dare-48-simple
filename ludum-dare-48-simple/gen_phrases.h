@@ -10,20 +10,20 @@ unordered_map<string, unordered_set<string>> gen_phrases()
     
     // generate phrase book using all available synonymns of verbs
     unordered_map<string, unordered_set<string>> phrases;
-    for (auto const& word : thesaurus["access"]) {
+    for (auto const& word : thesaurus["ACCESS"]) {
         phrases[word] = {
-            "map", "backpack", "phrases"
+            "MAP"
         };
     }
-    for (auto const& word : thesaurus["move"]) {
+    for (auto const& word : thesaurus["MOVE"]) {
         phrases[word] = {
-            "left", "right", "forward", "back"
+            "NORTH", "SOUTH", "EAST", "WEST"
         };
     }
-    for (auto const& word : thesaurus["observe"]) {
-        phrases[word] = {
-            "left", "right", "forward", "back", "up", "down"
-        };
-    }
+    //for (auto const& word : thesaurus["observe"]) {
+    //    phrases[word] = {
+    //        "left", "right", "forward", "back", "up", "down"
+    //    };
+    //}
     return phrases;
 }

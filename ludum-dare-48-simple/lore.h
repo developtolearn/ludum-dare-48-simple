@@ -1,7 +1,7 @@
 #pragma once
 
 
-int startup() {
+int lore() {
 	// important lore
 	cout 
 		<< "||" << string(93, '=') << "||\n"

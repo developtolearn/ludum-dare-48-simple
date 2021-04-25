@@ -5,14 +5,11 @@ unordered_map<string, unordered_set<string>> gen_thesaurus()
 {
 	// manually define synnonymns of main words
 	unordered_map<string, unordered_set<string>> thesaurus;
-	thesaurus["access"] = {
-		"access", "open", "show", "print", "display"
+	thesaurus["ACCESS"] = {
+		"ACCESS", "OPEN", "SHOW", "PRINT", "DISPLAY"
 	};
-	thesaurus["move"] = {
-	"move", "go", "walk", "run"
-	};
-	thesaurus["observe"] = {
-		"observe", "look", "view"
+	thesaurus["MOVE"] = {
+	"MOVE", "GO", "WALK", "RUN"
 	};
 
 	return thesaurus;
