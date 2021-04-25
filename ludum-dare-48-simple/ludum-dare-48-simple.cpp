@@ -10,12 +10,13 @@ int main()
     map<string, string> player = gen_player();
     instructions(player);
     array<array<string, 10>, 10> map = gen_map();
+    unordered_map<string, unordered_set<string>> phrases = gen_phrases();
 
     // main loop
-    string command = "";
+    string command;
     do {
         command = get_command();
-        //parse_command(command);
+        parse_command(command, phrases);
     } while (command != "EXIT");
 
     return 0;

@@ -83,5 +83,8 @@
     <ClInclude Include="place_object.h">
       <Filter>Header Files\map</Filter>
     </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Header Files\gameplay</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
