@@ -1,8 +1,4 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include <map>
-using namespace std;
 
 
 int print_player(map<string, string> player)

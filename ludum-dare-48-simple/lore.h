@@ -1,6 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
+
 
 int startup() {
 	// important lore

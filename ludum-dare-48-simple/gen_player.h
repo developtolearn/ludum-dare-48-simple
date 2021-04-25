@@ -1,8 +1,4 @@
 #pragma once
-#include <iostream>
-#include <map>
-#include <string>
-using namespace std;
 
 
 map<string, string> gen_player() {

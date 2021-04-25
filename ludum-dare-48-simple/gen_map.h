@@ -1,9 +1,5 @@
 #pragma once
-#include <string>
-#include <array>
-#include <random>
-#include <list>
-using namespace std;
+
 
 array<array<string,10>,10> gen_map() {
 	// generate blank map

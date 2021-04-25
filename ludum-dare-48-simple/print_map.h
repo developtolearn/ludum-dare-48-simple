@@ -1,8 +1,4 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include <array>
-using namespace std;
 
 
 int print_map(array<array<string, 10>, 10> map)

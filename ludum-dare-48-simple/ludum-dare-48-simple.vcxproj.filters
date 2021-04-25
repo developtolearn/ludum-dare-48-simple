@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\language">
+      <UniqueIdentifier>{60753251-5d30-4911-bd7a-97ab2c1b4918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\player">
+      <UniqueIdentifier>{95e3340f-da78-4776-b466-2fa2e9d7a6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\map">
+      <UniqueIdentifier>{bada86c9-b0f3-4e42-a93d-353e15cfd321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameplay">
+      <UniqueIdentifier>{6bb6d334-a7b3-42b4-bf7a-3cfc9644807b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ludum-dare-48-simple.cpp">
@@ -21,39 +33,42 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="language.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="print_phrases.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="gen_phrases.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\language</Filter>
     </ClInclude>
     <ClInclude Include="gen_thesaurus.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\language</Filter>
     </ClInclude>
-    <ClInclude Include="gen_map.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="gen_phrases.h">
+      <Filter>Header Files\language</Filter>
     </ClInclude>
-    <ClInclude Include="print_map.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="map.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="print_phrases.h">
+      <Filter>Header Files\language</Filter>
     </ClInclude>
     <ClInclude Include="gen_player.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\player</Filter>
     </ClInclude>
     <ClInclude Include="print_player.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="print_map.h">
+      <Filter>Header Files\map</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files\map</Filter>
+    </ClInclude>
+    <ClInclude Include="gen_map.h">
+      <Filter>Header Files\map</Filter>
     </ClInclude>
     <ClInclude Include="gameplay.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\gameplay</Filter>
     </ClInclude>
-    <ClInclude Include="startup.h">
+    <ClInclude Include="lore.h">
+      <Filter>Header Files\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="a_deeper_love.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

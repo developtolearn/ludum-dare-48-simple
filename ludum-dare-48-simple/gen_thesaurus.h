@@ -1,8 +1,4 @@
 #pragma once
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-using namespace std;
 
 
 unordered_map<string, unordered_set<string>> gen_thesaurus()

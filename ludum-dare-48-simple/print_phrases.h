@@ -1,9 +1,4 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-using namespace std;
 
 
 int print_phrases(unordered_map<string, unordered_set<string>> phrases)
