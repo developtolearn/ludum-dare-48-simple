@@ -142,6 +142,7 @@
     <ClCompile Include="ludum-dare-48-simple.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="gameplay.h" />
     <ClInclude Include="gen_phrases.h" />
     <ClInclude Include="gen_player.h" />
     <ClInclude Include="gen_thesaurus.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="print_phrases.h" />
     <ClInclude Include="language.h" />
     <ClInclude Include="print_player.h" />
+    <ClInclude Include="startup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

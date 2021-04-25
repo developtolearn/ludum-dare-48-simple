@@ -4,10 +4,14 @@
 #include "language.h"
 #include "map.h"
 #include "player.h"
+#include "gameplay.h"
 
 int main()
 {
+    startup();
     map<string, string> player = gen_player();
+    array<array<string, 10>, 10> map = gen_map();
     print_player(player);
+    print_map(map);
     return 0;
 }
