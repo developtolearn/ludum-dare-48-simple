@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,6 +145,74 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a_deeper_love.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\CodeAnalysis\sourceannotations.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\concurrencysal.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\crtdefs.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\eh.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\intrin0.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\isa_availability.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\limits.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\sal.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\stdint.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\use_ansi.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vadefs.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_new.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_new_debug.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_string.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_typeinfo.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xatomic.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xatomic_wait.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xbit_ops.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xcall_once.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xerrc.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xkeycheck.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xlocinfo.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xnode_handle.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xpolymorphic_allocator.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xthreads.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtimec.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\yvals.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\yvals_core.h" />
+    <ClInclude Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\__msvc_system_error_abi.hpp" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_malloc.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math_defines.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_search.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_share.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_stdio_config.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_terminate.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wconio.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wdirect.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wio.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wprocess.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\errno.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\float.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\locale.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\math.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\share.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stddef.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys\stat.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys\types.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h" />
+    <ClInclude Include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h" />
     <ClInclude Include="encounter.h" />
     <ClInclude Include="gen_phrases.h" />
     <ClInclude Include="gen_player.h" />
@@ -161,6 +231,64 @@
     <ClInclude Include="print_verbs.h" />
     <ClInclude Include="you_died.h" />
     <ClInclude Include="you_left.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\array" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\bit" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cctype" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cerrno" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cfloat" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\climits" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\clocale" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cmath" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\compare" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\concepts" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstddef" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdint" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdio" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdlib" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstring" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\ctime" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cwchar" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\exception" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\ios" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iosfwd" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iostream" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\istream" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iterator" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\limits" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\map" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\new" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\ostream" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\random" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\stdexcept" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\streambuf" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\system_error" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\typeinfo" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\type_traits" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\unordered_map" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\unordered_set" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\utility" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xfacet" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xhash" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xiosbase" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xlocale" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xlocinfo" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xlocnum" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmemory" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstddef" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtr1common" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtree" />
+    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
