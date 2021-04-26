@@ -23,5 +23,7 @@ int main()
         map = parse_command(command, phrases, map);
     } while (command != "EXIT");
     you_left();
+    cout << "Type anything to exit\n";
+    command = get_command();
     return 0;
 }
