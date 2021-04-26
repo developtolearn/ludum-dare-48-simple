@@ -83,5 +83,11 @@
     <ClInclude Include="encounter.h">
       <Filter>Header Files\gameplay</Filter>
     </ClInclude>
+    <ClInclude Include="you_died.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="you_left.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

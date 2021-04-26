@@ -24,7 +24,7 @@ int instructions(map<string, string> player) {
 		<< "|| Here are a few useful, non-obvious, or meta pairs:                               I: Item    ||\n"
 		<< "||     LIST VERBS: lists all the available verbs and their recognized synonymns     #: Wall    ||\n"
 		//<< "||     HOW <VERB>: lists all the nouns for an available verb                                   ||\n"
-		<< "||     MOVE <DIRECTION>: Currently only works with NORTH, SOUTH, EAST, WEST. Ran out of time :( ||\n"
+		<< "||     MOVE <DIRECTION>: Currently only works with NORTH, SOUTH, EAST, WEST.                   ||\n"
 		<< "||" << string(93, '=') << "||\n\n";
 	return 0;
 }

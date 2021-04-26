@@ -46,6 +46,7 @@ array<array<string, 10>, 10> parse_command(string command, unordered_map<string,
 	unordered_map<string, unordered_set<string>> thesaurus = gen_thesaurus();
 	if (thesaurus["ACCESS"].find(user_verb) != thesaurus["ACCESS"].end()) {
 		if (user_noun == "MAP") { print_map(map); }
+		if (user_noun == "PLAYER") { print_player(); }
 		return map;
 	}
 	// check for "MOVE"

@@ -11,6 +11,8 @@
 using namespace std;
 
 // hacked up here due to dependencies
+#include "you_died.h"
+#include "you_left.h"
 #include "encounter.h"
 
 // language headers

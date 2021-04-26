@@ -1,5 +1,8 @@
 // ludum-dare-48-simple.cpp : This file contains the 'main' function. Program execution begins and ends there.
 int g_floor{};
+int g_numbers{};
+int g_player_health{};
+int g_player_attack{};
 #include "a_deeper_love.h"
 
 
@@ -19,6 +22,6 @@ int main()
         command = get_command();
         map = parse_command(command, phrases, map);
     } while (command != "EXIT");
-
+    you_left();
     return 0;
 }
